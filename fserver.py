@@ -17,7 +17,7 @@ class PWSelections(Form):
     maxLength = SelectField('Maximum Word Length',
                     choices=[('10','10'),('11','11'),('12','12')])
 
-    maxPwLen = SelectField('Maximum Password Length',
+    maxPwLen = SelectField('Password Length',
                     choices=[('18','18'),('19','19'),('20','20'),('21','21'),('22','22'),
                              ('23','23'),('24','24'),('25','25'),('26','26'),('27','27'),
                              ('28','28'),('29','29'),('30','30')])
